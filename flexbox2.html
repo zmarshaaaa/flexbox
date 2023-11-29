@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox 2</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        nav {
+            position: fixed;
+            padding: 2px;
+            text-align: left;
+            left: 0px;
+            width: 200px;
+            height: 100%;
+            background: palevioletred;
+            transition: all 0.5s ease;
+        }
+
+        header {
+            background-color: beige;
+            height: 10%;
+            padding: 10px;
+            text-align: right;
+            order: 1;
+        }
+
+        main {
+            display: flex;
+            flex: 1;
+            order: 1;
+        }
+
+        article {
+            background-color: lightblue;
+            padding: 10px;
+            text-align: right;
+            flex: 3;
+        }
+
+        aside {
+            background-color: lightpink;
+            padding: 2px;
+            text-align: center;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .image {
+        padding: 20px;
+        max-width: 88%;
+      }
+
+
+        footer {
+            background-color: beige;
+            height: 10%;
+            padding: 10px;
+            text-align: center;
+            order: 1;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div>
+            <nav>JEONG JAE-HYUN 
+            </nav> 
+        </div>
+    </main>
+    <div class="container">
+        <header>Jeong Yun-o (Hangul: 정윤오; lahir Jeong Jae-hyun (Hangul: 정재현); lahir 14 Februari 1997), lebih dikenal dengan nama panggung Jaehyun, adalah penyanyi, penulis lagu, dan aktor asal Korea Selatan. Ia paling dikenal sebagai anggota grup vokal pria Korea Selatan NCT dan sub-unitnya, NCT U dan NCT 127. Jaehyun memulai debutnya pada April 2016 sebagai anggota unit rotasi NCT U dan menjadi anggota tetap unit NCT 127 pada Juli 2016. Ia juga merupakan mantan pembawa acara Inkigayo sejak Oktober 2019 hingga Februari 2021.</header>
+        <main>
+        <article>Kehidupan awal
+            Jaehyun lahir pada 14 Februari 1997 di Seoul, Korea Selatan. Walaupun lahir dengan nama Jeong Jae-hyun (정재현), Ia kemudian mengganti namanya secara legal menjadi Jeong Yun-o (정윤오). Ia pernah tinggal di Connecticut selama 4 tahun.[1] Ia menampilkan "Mama" oleh EXO saat audisi SM Entertainment.[1] Ia lulus dari School of Performing Arts Seoul.[2][3]
+            
+            Karier
+            2012–2016: Pradebut
+            Pada 9 Desember 2013, ia diperkenalkan sebagai anggota pelatihan tim pradebut SMROOKIES.[4] Pada 2014, ia berpartisipasi dengan anggota NCT lainnya dalam acara Exo 90:2014, di mana mereka menampilkan beberapa lagu 90an.[5] Sejak 21 Januari hingga 1 Juli 2015, ia dan Doyoung menjadi pembawa acara Show Champion.[6] Pada Juli 2015, ia dan Ten berkompetisi di Hope Basketball All-Star.[7] Pada Desember 2015, Jaehyun menampilkan "A Whole New World" di Disney Channel Korea The Mickey Mouse Club.[1]
+            
+            2016-2018: Debut dengan NCT
+            Pada April 2016, Jaehyun secara resmi debut sebagai anggota NCT, dalam subunit pertama NCT U, dengan singel "The 7th Sense" dan "Without You".[8][9][10] Pada 10 Juli, ia debut sebagai anggota subunit kedua, NCT 127, dengan album mini NCT#127.[11][12]
+            
+            Pada Maret 2017, Jaehyun bergabung dengan program radio NCT Night Night sebagai DJ bersama Johnny.[13] Pada November 2017, ia dan d.ear merilis lagu "Try Again" untuk proyek SM Station.[14] Pada Desember 2017, ia tampil dalam video musik "The Little Match Girl" oleh Wendy dan Baek A-yeon.[15]
+            
+            Pada Januari 2018, Jaehyun kembali berpartisipasi dalam subunit NCT U, dengan singel "Timeless" sebagai bagian dari proyek SM Station.[16]
+            
+            2019-sekarang: Aktivitas solo
+            Pada Oktober 2019, Jaehyun menjadi salah satu pembawa acara SBS Inkigayo, bersama Minhyuk dari Monsta X dan Naeun dari April.[17]
+            
+            Pada 4 September 2020, diumumkan bahwa Jaehyun akan memulai debut aktingnya dalam drama KBS2 Dear. M berperan sebagai Cha Min-ho, mahasiswa tahun kedua Departemen Ilmu Komputer di Universitas Seoyeon.[18]</article>
+        <aside>
+            <img src="https://images.harpersbazaar.co.id/unsafe/0x0/smart/media/body_1ff8f87fe81043029c09fb4a1b0e1ec6.jpg" alt="Gambar 1"
+            class="image" 
+        </aside>
+        </main>
+        <footer>Pranala luar
+            (Inggris) Jaehyun di HanCinema
+            Kategori: Orang hidup berusia 26Kelahiran 1997Anggota NCTArtis S.M. Entertainment</footer>
+    </div>
+   
+</body>
+</html>
